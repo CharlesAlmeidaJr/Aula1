@@ -118,3 +118,26 @@ console.log(array);
 
 let novoArray = array.slice(0,3);
 console.log(novoArray);
+
+
+console.log('--------')
+
+let object = {String: 'string', Number: 1, Boolean: true, array: ['array'], objectInterno:{
+    objectInterno: 'objeto interno'}}
+    console.log(object.Boolean);
+
+var string = object.String;
+console.log(string);
+
+var arrayInterno = object.array;
+console.log(arrayInterno);
+
+
+console.log('---------')
+
+let object2 = {String: 'string', Number: 1, Boolean: true, array: ['array'], objectInterno:{
+    objectInterno: 'objeto interno'}}
+    console.log();
+
+var {string, boolean, objectInterno} = object2;
+console.log(string, boolean, objectInterno);
